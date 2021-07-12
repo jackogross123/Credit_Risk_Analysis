@@ -11,7 +11,7 @@ Analyzing credit risk is a difficult challenge. There are many factors that play
 
 ![image_1](https://github.com/jackogross123/Credit_Risk_Analysis/blob/main/Resources/1.png)
 
- - SMOTE oversampling: The accuracy score is 66.2%, the precision for the high_risk loans has a low positvity again at 1% and recall is 69% overall
+ -Oversampling: The accuracy score is 66.2%, the precision for the high_risk loans has a low positvity again at 1% and recall is 69% overall
 
 ![image_2](https://github.com/jackogross123/Credit_Risk_Analysis/blob/main/Resources/2.png)
 
@@ -20,12 +20,12 @@ Analyzing credit risk is a difficult challenge. There are many factors that play
 ![image_3](https://github.com/jackogross123/Credit_Risk_Analysis/blob/main/Resources/3.png)
 
 ### Use the SMOTEENN Algorithm to Predict Credit Risk
- - Combination(over and undersampling): The balanced accuracy score is 54.7% the precision is 99% and the recall is 57% overall
+ - Combination: The balanced accuracy score is 54.7% the precision is 99% and the recall is 57% overall
 
 ![image_4](https://github.com/jackogross123/Credit_Risk_Analysis/blob/main/Resources/4.png)
 
 ### Use Ensemble Classifiers to Predict Credit Risk
- - Balanced Random Forest Classifier: The accuracy score is 77.2% the precision is 99% and the recall is 88%
+ - Random Forest Classifier: The accuracy score is 77.2% the precision is 99% and the recall is 88%
 
 ![image_5](https://github.com/jackogross123/Credit_Risk_Analysis/blob/main/Resources/5.png)
 
@@ -34,3 +34,4 @@ Analyzing credit risk is a difficult challenge. There are many factors that play
 ![image_6](https://github.com/jackogross123/Credit_Risk_Analysis/blob/main/Resources/6.png)
 
 ## Recommendation
+In the first 4 models we oversampled, undersampled, and took a combination of both to predict loan ratings. The accuracy for the 4 models weren't that high which is probalamtic for our cases. In the next models we took ensemable factors to determine loan ratings.I reccomend the ensemble models to use because they bring the greatest combination of of accuracy and precision.
